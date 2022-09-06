@@ -2,12 +2,12 @@
 APP: Fighting Game
 
 Create an updateGame() function that will update the DOM with the state of the game 
-========================================
+
 
 - updateGame()
 
-These are the 2 classes you must create and their methods 
-========================================
+These are the 2 classes we must create and their methods 
+
 
 class Player {
   - strike()
@@ -21,9 +21,9 @@ class Game {
   - reset()
 }
 
-These functions are hard coded in the HTML. So, you can't change their names.
-These are all the DIV ID's you're gonna need access to 
-========================================================
+These functions are hard coded in the HTML. So, we can't change their names.
+These are all the DIV ID's we're gonna need access to 
+
 #1 ID  'play' = Button to run simulation
 #2 ID  'result' = Div that holds the winner of the match
 #3 ID  'p1Name' = Div that holds player 1's Name
@@ -57,10 +57,10 @@ const updateGame = (p1,p2,gameState) => {
 }
 
 // ** Create the Player class which can create a player with all it's attributes and methods **
-// qazi = Player('Qazi', 100, 7)
-// qazi.name 👉 'Qazi'
-// qazi.health 👉 100
-// qazi.attackDmg 👉 7
+// qazi = Player('player01', 100, 7)
+// qazi.name -> 'player01'
+// qazi.health -> 100
+// qazi.attackDmg -> 7
 
 class Player {
   constructor(name, health, attackDamage) {
